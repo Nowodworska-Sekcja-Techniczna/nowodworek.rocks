@@ -1,8 +1,485 @@
-<html>
-  <head>
-    <title>Nowodworek</title>
-  </head>
-  <body style="background-color: #232323;">
-    <img style="position: absolute; left: 25%; top: 40%;" src="logo.gif" width="50%" />
-  </body>
+<!doctype html>
+<html lang="pl" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#23212c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#23212c">
+  <meta property="og:image" content="https://firebite.me/projects/SU/public/assets/img/branding/logo-su-banner-alt-t.png">
+  <!--meta property="og:description" content="[Coś tu trzeba wpisać... lub nie]"-->
+  <link rel="stylesheet" href="assets/font-awesome.min.css">
+  <meta property="og:type" content="website" />
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/img/icon/apple-touch-icon-57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/icon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/icon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/icon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/icon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/icon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="assets/img/icon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="assets/img/icon/favicon-16x16.png" sizes="16x16" />
+  <title>Samorząd Uczniowski Nowodworka</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/su.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+  <div class="modal fade" id="mainModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div  class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div id="mainDialog" class="modal-content">
+        <div class="modal-header">
+          <h5 id="mainName" class="modal-title">Jan Róg</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <span id="loadModal"></span>
+          <img id="modalImg" style="width: 100%;" src="assets/img/jan_rog_prezydent.jpg"/>
+        </div>
+      </div>
+    </div>
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">SU Nowodworek</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Samorząd</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./matury.html">Matury</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./mapa/map.html">Mapa Zniżek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://www.nowodworek.krakow.pl/">Szkoła</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kontakt.html">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main role="main" class="container flex-shrink-0">
+    <div class="header">
+      <span>Samorząd Uczniowski</span>
+      <span>Nowodworka</span>
+    </div>
+    <div class="row align-items-center">
+      <div class="col">
+        <div class="section prezydent">
+          <img class="section-image" stann="Jan Róg" src="assets/img/crop/jan_rog_prezydent.jpg"></img>
+          <div class="section-header">
+            Prezydent
+          </div>
+          <div class="section-text">
+            Jan Róg
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center cut-in">
+      <div class="col">
+        <div class="section vice">
+          <img class="section-image" stann="Maja Liszkiewicz" src="assets/img/crop/maja_liszkiewicz_wice.jpg"></img>
+          <div class="section-header">
+            Wiceprezydent
+          </div>
+          <div class="section-text">
+            Maja Liszkiewicz
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="section vice">
+          <img class="section-image" stann="Aleksandra Taran" src="assets/img/crop/ola_taran_wice.jpg"></img>
+          <div class="section-header">
+            Wiceprezydent
+          </div>
+          <div class="section-text">
+            Aleksandra Taran
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-spacer"></div>
+    <div class="row align-items-center">
+      <div class="col">
+
+        <div class="section">
+          <img class="section-image" stann="Konrad Konik" src="assets/img/crop/konrad_konik_skarbnik.jpg">
+          <div class="section-header">
+            Skarbnik
+          </div>
+          <div class="section-text">
+            Konrad Konik
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="section">
+          <img class="section-image" stann="Michał Cygan" src="assets/img/crop/michal_cygan_rzecznik_maturzystow.jpg">
+          <div class="section-header">
+            Rzecznik Maturzystów
+          </div>
+          <div class="section-text">
+            Michał Cygan
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="section">
+          <img class="section-image" stann="Klaudia Świgut" src="assets/img/crop/swigut_prawa_ucznia.jpg">
+          <div class="section-header">
+            <!-- Rzecznik Praw Ucznia -->
+            Rzecznik Praw Ucznia
+          </div>
+          <div class="section-text">
+            Klaudia Świgut
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-spacer"></div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionDoradca">
+      <div class="card-header" id="headingDoradca">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseDoradca" aria-expanded="true" aria-controls="collapseDoradca">
+          Doradca Prezydenta
+        </button>
+      </div>
+      <div id="collapseDoradca" class="collapse show" aria-labelledby="headingDoradca" data-parent="#accordionDoradca">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Gwidon Lenort" src="assets/img/crop/gwidon_lenort_doradca_prezydenta.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Doradca Prezydenta
+                  </div>
+                  <div class="section-text">
+                    Gwidon Lenort
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionTechnicz">
+      <div class="card-header" id="headingTechnicz">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTechnicz" aria-expanded="true" aria-controls="collapseTechnicz">
+          Sekcja Techniczna
+        </button>
+      </div>
+
+      <div id="collapseTechnicz" class="collapse show" aria-labelledby="headingTechnicz" data-parent="#accordionTechnicz">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center mb-3">
+              <div class="col">
+                <div class="section"><h3>Sekcja Techniczna</h3></div>
+              </div>
+            </div>
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Mikołaj Gazeel" src="assets/img/crop/mikolaj_gazeel.jpg"></img><br/> <br/>
+                  Mikołaj Gazeel
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Miłosz Łagan" src="assets/img/crop/milosz_lagan.jpg"></img><br/> <br/>
+                  Miłosz Łagan
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" src="assets/img/crop/jakub_bubak.jpg"></img><br/> <br/>
+                  <span>Jakub Bubak</span>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionOrganizacja">
+      <div class="card-header" id="headingOrganizacja">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOrganizacja" aria-expanded="true" aria-controls="collapseOrganizacja">
+          Sekcja Organizacyjna
+        </button>
+      </div>
+      <div id="collapseOrganizacja" class="collapse show" aria-labelledby="headingOrganizacja" data-parent="#accordionOrganizacja">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Irena Worobkiewicz i Michał Pawłowski" src="assets/img/crop/michal_pawlowski_irena_worobkiewicz_organizacyjna.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Sekcja Organizacyjna
+                  </div>
+                  <div class="section-text">
+                    Irena Worobkiewicz
+                  </div>
+                  <div class="section-text">
+                    Michał Pawłowski
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionCharytatyw">
+      <div class="card-header" id="headingCharytatyw">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseCharytatyw" aria-expanded="true" aria-controls="collapseCharytatyw">
+          Sekcja Charytatywna
+        </button>
+      </div>
+      <div id="collapseCharytatyw" class="collapse show" aria-labelledby="headingCharytatyw" data-parent="#accordionCharytatyw">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Kamila Grudniewska i Ania Pocztowska" src="assets/img/crop/kamila_grudniewska_ania_pocztowska_charytatywna.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Sekcja Charytatywna
+                  </div>
+                  <div class="section-text">
+                    Kamila Grudniewska
+                  </div>
+                  <div class="section-text">
+                    Ania Pocztowska
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionKultura">
+      <div class="card-header" id="headingKultura">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseKultura" aria-expanded="true" aria-controls="collapseKultura">
+          Sekcja Kulturalna
+        </button>
+      </div>
+      <div id="collapseKultura" class="collapse show" aria-labelledby="headingKultura" data-parent="#accordionKultura">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Julia Lekki i Gabrysia Michałek" src="assets/img/crop/julka_lekki_gabrysia_michalek_kulturalna.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Sekcja Kulturalna
+                  </div>
+                  <div class="section-text">
+                    Julka Lekki
+                  </div>
+                  <div class="section-text">
+                    Gabrysia Michałek
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionSport">
+      <div class="card-header" id="headingSport">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSport" aria-expanded="true" aria-controls="collapseSport">
+          Sekcja Sportowa
+        </button>
+      </div>
+
+      <div id="collapseSport" class="collapse show" aria-labelledby="headingSport" data-parent="#accordionSport">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Klaudia Wiśniowska i Maria Gubernat" src="assets/img/crop/klaudia_wisniowska_maria_gubernat_sportowa.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Sekcja Sportowa
+                  </div>
+                  <div class="section-text">
+                    Klaudia Wiśniowska
+                  </div>
+                  <div class="section-text">
+                    Maria Gubernat
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionInicjatywa">
+      <div class="card-header" id="headingInicjatywa">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseInicjatywa" aria-expanded="true" aria-controls="collapseInicjatywa">
+          Sekcja Inicjatywy Uczniowskiej
+        </button>
+      </div>
+      <div id="collapseInicjatywa" class="collapse show" aria-labelledby="headingInicjatywa" data-parent="#accordionInicjatywa">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Stanisław Brzeziński, Piotr Banaskiewicz i Wiktor Putowski" src="assets/img/crop/stanislaw_brezisnski_piotr_banaskiewicz_wiktor_putowski_inicjatywa_uczniowska.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Sekcja Inicjatywy Uczniowskiej
+                  </div>
+                  <div class="section-text">
+                    Stanisław Brzeziński
+                  </div>
+                  <div class="section-text">
+                    Piotr Banaskiewicz
+                  </div>
+                  <div class="section-text">
+                    Wiktor Putowski
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionSocial">
+      <div class="card-header" id="headingSocial">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseSocial" aria-expanded="true" aria-controls="collapseSocial">
+          Social Media
+        </button>
+      </div>
+      <div id="collapseRadio" class="collapse show" aria-labelledby="headingRadio" data-parent="#accordionRadio">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" stann="Kacper Bąk" src="assets/img/kacper_bak.JPG"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div style="padding-bottom: 2%;">
+                    <span style="font-size: 1.75rem">Social Media</span> <br/>
+                    <span class="text-muted">(człowiek za tinderem)</span>
+                  </div>
+                  <div class="section-text">
+                    Kacper Bąk
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card text-white card-bg border-nwd card-row" id="accordionRadio">
+      <div class="card-header" id="headingRadio">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseRadio" aria-expanded="true" aria-controls="collapseRadio">
+          Radio Nowodworskie
+        </button>
+      </div>
+      <div id="collapseRadio" class="collapse show" aria-labelledby="headingRadio" data-parent="#accordionRadio">
+        <div class="card-body">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col">
+                <div class="section">
+                  <img class="section-image" src="assets/img/radio.jpg"></img>
+                </div>
+              </div>
+              <div class="col">
+                <div class="section">
+                  <div class="section-header">
+                    Radio Nowodworskie
+                  </div>
+                  <div class="section-text">
+                    Łucja Chmura
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-spacer"></div>
+  </main>
+  
+  <!-- ST00PKI!!!11!!! -->
+  <footer class="footer mt-auto">
+    <div class="container">
+      <div>Made with <i class="fa fa-heart love" aria-hidden="true"></i> by Nowodworek Tech</div>
+      <div><a class="footlink" href="http://firebite.me">Miłosz Łagan</a>, <a class="footlink" href="http://22h49.me">Mikołaj Gazeel</a>, Jakub Bubak</div>
+    </div>
+  </footer>
+
+
+  <!-- JS Libs -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    $(".section-image").on('click', function(event){
+      event.stopPropagation();
+      event.stopImmediatePropagation();
+      $("#loadModal").text("Loading...");
+      $("#modalImg").attr("src", "");
+      $("#mainName").text(event.target.attributes['stann'].value.toString());
+      $("#modalImg").attr("src", event.target.attributes['src'].value.toString().replace("crop/", ""));
+      $("#mainModal").modal("show");
+      $("#loadModal").text("");
+    });
+  </script>
+</body>
+
 </html>

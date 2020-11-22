@@ -1,0 +1,95 @@
+.marker {
+  background-color: $coffee;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: solid rgba(0, 0, 0, 0.2) 1px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.marker.active {
+  width: 31px;
+  height: 31px;
+  border: solid rgba(0, 0, 0, 0.3) 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.marker-icon {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 24px;
+  color: white;
+  width: 24px !important;
+  height: 24px;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.marker.active > .marker-icon {
+  width: 30px !important;
+  height: 30px;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.marker.enabled {
+  visibility: visible;
+}
+
+.ds-coffee {
+  background-color: $coffee;
+}
+
+.ds-utensils {
+  background-color: $utensils;
+}
+
+.ds-music {
+  background-color: $music;
+}
+
+.ds-book {
+  background-color: $book;
+}
+
+.ds-person {
+  background-color: $person;
+  visibility: hidden;
+}
+
+.it-coffee {
+  color: $coffee;
+}
+
+.it-coffee.active {
+  color: white;
+  background-color: $coffee;
+}
+
+.it-utensils {
+  color: $utensils;
+}
+
+.it-utensils.active {
+  color: white;
+  background-color: $utensils;
+}
+
+.it-music {
+  color: $music;
+}
+
+.it-music.active {
+  color: white;
+  background-color: $music;
+}
+
+.it-book {
+  color: $book;
+}
+
+.it-book.active {
+  color: white;
+  background-color: $book;
+}

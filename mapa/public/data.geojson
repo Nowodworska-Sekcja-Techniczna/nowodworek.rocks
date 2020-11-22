@@ -1,0 +1,549 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Tektura",
+        "discount": "-10%",
+        "location": "ul. Krupnicza 7"
+      },
+      "geometry": {
+        "coordinates": [
+          19.931088,
+          50.063625
+        ],
+        "type": "Point"
+      },
+      "id": "03f88834f29c7475dde034280cc59dbf"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Costa Coffee",
+        "discount": "-20%",
+        "location": "Rynek Główny 41"
+      },
+      "geometry": {
+        "coordinates": [
+          19.937753,
+          50.062607
+        ],
+        "type": "Point"
+      },
+      "id": "1317f3fbfbab3362efe4083af3e1b059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "NapNap Cafe",
+        "discount": "-15%",
+        "location": "ul. Zwierzyniecka 5"
+      },
+      "geometry": {
+        "coordinates": [
+          19.9322,
+          50.058436
+        ],
+        "type": "Point"
+      },
+      "id": "1aa6998eadcdf68c444dfd307ad81827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Cafe Szafe",
+        "discount": "-10%",
+        "location": "ul. Felicjanek 10"
+      },
+      "geometry": {
+        "coordinates": [
+          19.929688,
+          50.057747
+        ],
+        "type": "Point"
+      },
+      "id": "2a71c42c97b875959e67b3e706c01ba0"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Krowarzywa",
+        "discount": "-10% na wszystkie burgery",
+        "location": "ul. Sławkowska 8"
+      },
+      "geometry": {
+        "coordinates": [
+          19.937252,
+          50.063494
+        ],
+        "type": "Point"
+      },
+      "id": "39cd2b32f0ebf1375850889d5ee74aee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Camera Cafe",
+        "discount": "-10%",
+        "location": "ul. Wiślna 5"
+      },
+      "geometry": {
+        "coordinates": [
+          19.934926,
+          50.060893
+        ],
+        "type": "Point"
+      },
+      "id": "3d19fafb691b209ab4ac24338ddfc062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Burger Station",
+        "discount": "-15%",
+        "location": "ul. Wiślna 10"
+      },
+      "geometry": {
+        "coordinates": [
+          19.934636,
+          50.060309
+        ],
+        "type": "Point"
+      },
+      "id": "57a976c31ab2090860d5d1029c78c9e9"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Choco Cafe",
+        "discount": "-10%",
+        "location": "ul. Wiślna 8"
+      },
+      "geometry": {
+        "coordinates": [
+          19.934737,
+          50.060426
+        ],
+        "type": "Point"
+      },
+      "id": "5b93ef59a1fe37f34880333a78509463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Pies Pianista",
+        "discount": "-10%",
+        "location": "ul. Paderewskiego 4"
+      },
+      "geometry": {
+        "coordinates": [
+          19.941079,
+          50.066559
+        ],
+        "type": "Point"
+      },
+      "id": "5c4e28c2bd9dd009aab68878de2b54b2"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Mięta Restobar",
+        "discount": "-10%",
+        "location": "ul. Krupnicza 19a"
+      },
+      "geometry": {
+        "coordinates": [
+          19.928867,
+          50.063627
+        ],
+        "type": "Point"
+      },
+      "id": "68b70fa5f12536b5e97735795c62fe98"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Magia Cafe Bar",
+        "discount": "-10%",
+        "location": "Plac Mariacki 3"
+      },
+      "geometry": {
+        "coordinates": [
+          19.939999,
+          50.06191
+        ],
+        "type": "Point"
+      },
+      "id": "72522c76397a1c9fbf9a1b71ed924dd6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Zarowka Cafe",
+        "discount": "-10%",
+        "location": "ul. Florianska 20"
+      },
+      "geometry": {
+        "coordinates": [
+          19.939896,
+          50.063362
+        ],
+        "type": "Point"
+      },
+      "id": "74d4f87bc3c156412c577d86145a2364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Cheder",
+        "discount": "-10%",
+        "location": "Józefa 36"
+      },
+      "geometry": {
+        "coordinates": [
+          19.947204,
+          50.051252
+        ],
+        "type": "Point"
+      },
+      "id": "79bed0dcd2a0b88f8c4c966b59573e22"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Meho Cafe",
+        "discount": "-10%",
+        "location": "ul. Krupnicza 26"
+      },
+      "geometry": {
+        "coordinates": [
+          19.928473,
+          50.06319
+        ],
+        "type": "Point"
+      },
+      "id": "7c29999770d49d7b7fce6b19db4a5ce1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Cafe Botanica",
+        "discount": "-5%",
+        "location": "ul. Bracka 9"
+      },
+      "geometry": {
+        "coordinates": [
+          19.936105,
+          50.060052
+        ],
+        "type": "Point"
+      },
+      "id": "83fa5032b2dca181c21fc9fc438100e7"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Mr. Pancake",
+        "discount": "-10%",
+        "location": "ul. Dolnych Młynów 10/1b"
+      },
+      "geometry": {
+        "coordinates": [
+          19.927518,
+          50.064359
+        ],
+        "type": "Point"
+      },
+      "id": "86c7e3c06494570690e577904047581d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Makarun",
+        "discount": "Duży zestaw w cenie małego",
+        "location": "ul. Św. Tomasza 10"
+      },
+      "geometry": {
+        "coordinates": [
+          19.937135,
+          50.063752
+        ],
+        "type": "Point"
+      },
+      "id": "8aba7c82121254100530439d20f2c557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "music",
+        "name": "Art Dance Kraków",
+        "discount": "-10%",
+        "location": "Osiedle Kościuszkowskie 5"
+      },
+      "geometry": {
+        "coordinates": [
+          20.013392,
+          50.084893
+        ],
+        "type": "Point"
+      },
+      "id": "9898b2a2c71ede999dbb11808496fab3"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Rzeźnia - Ribs On Fire",
+        "discount": "-10%",
+        "location": "ul. Bożego Ciała 14"
+      },
+      "geometry": {
+        "coordinates": [
+          19.943611,
+          50.051455
+        ],
+        "type": "Point"
+      },
+      "id": "9c6699fbe5b8e27149e1980b5a41c0b6"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Nowa Prowincja",
+        "discount": "-10%",
+        "location": "ul. Bracka 3-5"
+      },
+      "geometry": {
+        "coordinates": [
+          19.936181,
+          50.060397
+        ],
+        "type": "Point"
+      },
+      "id": "9e49b5d821d79d940f8a6bffff091762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "music",
+        "name": "Domin Kraków",
+        "discount": "-10%",
+        "location": "ul. Westerplatte 3/3"
+      },
+      "geometry": {
+        "coordinates": [
+          19.945233,
+          50.063859
+        ],
+        "type": "Point"
+      },
+      "id": "a2bfb360b57290b832e1c3989459c01d"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Pasta Masta",
+        "discount": "-10%",
+        "location": "ul. Zwierzyniecka 27"
+      },
+      "geometry": {
+        "coordinates": [
+          19.929781,
+          50.056995
+        ],
+        "type": "Point"
+      },
+      "id": "address.2627821277343556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "music",
+        "name": "Enigma Rescue",
+        "discount": "-30% Pon-Pt",
+        "location": "ul. Zwierzyniecka 15/9a"
+      },
+      "geometry": {
+        "coordinates": [
+          19.929852,
+          50.09008
+        ],
+        "type": "Point"
+      },
+      "id": "b3ddc4986a347a599ca7989e06080001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Efes Kebab",
+        "discount": "-10%",
+        "location": "ul. Basztowa 17"
+      },
+      "geometry": {
+        "coordinates": [
+          19.940674,
+          50.066229
+        ],
+        "type": "Point"
+      },
+      "id": "b590f13e712e9fd5e3a263f9b8652850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Czajownia",
+        "discount": "-10%",
+        "location": "ul. Józefa 25"
+      },
+      "geometry": {
+        "coordinates": [
+          19.948144,
+          50.05126
+        ],
+        "type": "Point"
+      },
+      "id": "cab1c08307c57bbaae857d90b4c49601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Dziórawy Kocioł",
+        "discount": "-15%",
+        "location": "ul. Grodzka 50/1"
+      },
+      "geometry": {
+        "coordinates": [
+          19.938416,
+          50.057458
+        ],
+        "type": "Point"
+      },
+      "id": "ce7873e56fa9b6d9d30a636b59a02aca"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Cafe Czekolada",
+        "discount": "-1zł, powyżej 30zł - 20%",
+        "location": "ul. Bracka 4"
+      },
+      "geometry": {
+        "coordinates": [
+          19.936876,
+          50.060372
+        ],
+        "type": "Point"
+      },
+      "id": "d12a4ee7b1b69b70ef7dfbcfb5c19393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Niebieskie Migdały",
+        "discount": "-10%",
+        "location": "Plac Wszystkich Świętych 11"
+      },
+      "geometry": {
+        "coordinates": [
+          19.937535,
+          50.059255
+        ],
+        "type": "Point"
+      },
+      "id": "dce6ddd9caa3ba25c0fe60689eb3bb86"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Soho Coffee",
+        "discount": "-15%",
+        "location": "Karmelicka 39"
+      },
+      "geometry": {
+        "coordinates": [
+          19.928844,
+          50.067217
+        ],
+        "type": "Point"
+      },
+      "id": "df9301b9e8ed2d99ed1f0fb870c637dd"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "music",
+        "name": "Chimera",
+        "discount": "Wieczory Studenckie",
+        "location": "ul. Św. Anny 3"
+      },
+      "geometry": {
+        "coordinates": [
+          19.934838,
+          50.061745
+        ],
+        "type": "Point"
+      },
+      "id": "e682a2d05cf8709c796adac557200944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Magia Cafe Bistro",
+        "discount": "-10%",
+        "location": "ul. Św. Anny 11"
+      },
+      "geometry": {
+        "coordinates": [
+          19.933796,
+          50.062062
+        ],
+        "type": "Point"
+      },
+      "id": "eb4c972f3f09df2eb43915e45007937c"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "book",
+        "name": "de Revolutionibus",
+        "discount": "-10%",
+        "location": "Bracka 14"
+      },
+      "geometry": {
+        "coordinates": [
+          19.936303,
+          50.059696
+        ],
+        "type": "Point"
+      },
+      "id": "f25aed6dfb938b6ca4815992f25855bc"
+    }
+  ],
+  "type": "FeatureCollection"
+}
