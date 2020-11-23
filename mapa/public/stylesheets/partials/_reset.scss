@@ -1,0 +1,22 @@
+// Reset
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Roboto', sans-serif;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  margin: 0 7px 20px 0;
+}

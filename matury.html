@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pl" class="h-100">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="theme-color" content="#23212c">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#23212c">
+  <meta property="og:image" content="https://firebite.me/projects/SU/public/assets/img/branding/logo-su-banner-alt-t.png">
+  <!--meta property="og:description" content="[Coś tu trzeba wpisać... lub nie]"-->
+  <meta property="og:type" content="website" />
+  <!-- NO MUSZĘ PRZYZNAĆ REL -->
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="assets/img/icon/apple-touch-icon-57x57.png" />
+  <link rel="stylesheet" href="assets/font-awesome.min.css">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/img/icon/apple-touch-icon-114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/img/icon/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/img/icon/apple-touch-icon-144x144.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="assets/img/icon/apple-touch-icon-120x120.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="assets/img/icon/apple-touch-icon-152x152.png" />
+  <link rel="icon" type="image/png" href="assets/img/icon/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="assets/img/icon/favicon-16x16.png" sizes="16x16" />
+  <title>Samorząd Uczniowski Nowodworka</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/su.css">
+</head>
+
+<body class="d-flex flex-column h-100">
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">SU Nowodworek</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Samorząd</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="./matury.html">Matury</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./mapa/map.html">Mapa Zniżek</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://www.nowodworek.krakow.pl/">Szkoła</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./kontakt.html">Kontakt</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main role="main" class="container flex-shrink-0 my-auto">
+    <div class="header">
+      <span>Matury</span>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col mb-4">
+          <div class="time">
+            <div class="time-header">
+              Do matury pozostało:
+            </div>
+            <div id="time" class="timer">
+
+            </div>
+            <div id="time-accurate" class="timer-small">
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- ST00PKI!!!11!!! -->
+  <footer class="footer mt-auto">
+    <div class="container">
+      <div>Made with <i class="fa fa-heart love" aria-hidden="true"></i> by Nowodworek Tech</div>
+      <div><a class="footlink" href="http://firebite.me">Miłosz Łagan</a>, <a class="footlink" href="http://22h49.me">Mikołaj Gazeel</a>, Jakub Bubak</div>
+    </div>
+  </footer>
+
+  <!-- JS Libs -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src=".\assets\js\countdown.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var endDate = new Date(2021, 4, 4, 9);
+
+    
+
+    function parseTime(ts) {
+      var sequence = '';
+      if (ts.weeks != 0 && ts.weeks != undefined) {
+        sequence += ts.weeks;
+        switch (polishify(ts.weeks)) {
+          case 1:
+            sequence += ' tydzień ';
+            break;
+          case 2:
+            sequence += ' tygodnie ';
+            break;
+          default:
+            sequence += ' tygodni ';
+            break;
+        }
+      }
+      if (ts.days != 0 && ts.days != undefined) {
+        sequence += ts.days;
+        switch (ts.days) {
+          case 1:
+            sequence += ' dzień ';
+            break;
+          default:
+            sequence += ' dni ';
+            break;
+        }
+      }
+      if (ts.hours != 0 && ts.hours != undefined) {
+        sequence += ts.hours;
+        switch (polishify(ts.hours)) {
+          case 1:
+            sequence += ' godzina ';
+            break;
+          case 2:
+            sequence += ' godziny ';
+            break;
+          default:
+            sequence += ' godzin ';
+            break;
+        }
+      }
+      if (ts.minutes != 0 && ts.minutes != undefined) {
+        sequence += ts.minutes;
+        switch (polishify(ts.minutes)) {
+          case 1:
+            sequence += ' minuta ';
+            break;
+          case 2:
+            sequence += ' minuty ';
+            break;
+          case 3:
+            sequence += ' minut ';
+            break;
+        }
+      }
+      if (ts.seconds != 0 && ts.seconds != undefined) {
+        sequence += ts.seconds;
+        switch (polishify(ts.seconds)) {
+          case 1:
+            sequence += ' sekunda ';
+            break;
+          case 2:
+            sequence += ' sekund ';
+            break;
+          case 3:
+            sequence += ' sekundy ';
+            break;
+        }
+      }
+      if (ts.milliseconds != 0 && ts.milliseconds != undefined) {
+        sequence += ts.milliseconds;
+        switch (polishify(ts.milliseconds)) {
+          case 1:
+            sequence += ' milisekunda ';
+            break;
+          case 2:
+            sequence += ' milisekundy ';
+            break;
+          case 3:
+            sequence += ' milisekund ';
+            break;
+        }
+      }
+      return sequence;
+    }
+
+    function parseTimeAlt(ts) {
+      return `${ts.days}d ${ts.hours}h ${ts.minutes}min ${ts.seconds}.${String(ts.milliseconds).padStart(3, '0').slice(0,1)}s`;
+    }
+
+    //god I fucking love this launguage, the rules are even hard to programmaticaly express
+    function polishify(num) {
+      switch (true) {
+        case (num == 1):
+          return 1;
+          break;
+        // thats gonna be a yieks from me cheif!
+        case (+num.toString().split('').pop() > 1 && +num.toString().split('').pop() <= 4 && (num < 10 || num > 19)):
+          return 2;
+          break;
+        default:
+          return 3;
+          break;
+        }
+    };
+
+    var timer =
+      countdown(
+        endDate,
+        function(ts) {
+          document.getElementById('time').innerHTML = parseTime(ts);
+        },
+        countdown.WEEKS |
+        countdown.DAYS |
+        countdown.HOURS |
+        countdown.MINUTES |
+        countdown.SECONDS,
+        2);
+    var timerAlt =
+      countdown(
+        endDate,
+        function(ts) {
+          document.getElementById('time-accurate').innerHTML = `(${parseTimeAlt(ts)})`;
+          if (Date.now() > endDate) {
+            $(".time-header")[0].innerHTML = 'Od rozpoczęcia matur minęło:';
+
+          }
+        },
+        countdown.DAYS |
+        countdown.HOURS |
+        countdown.MINUTES |
+        countdown.SECONDS |
+        countdown.MILLISECONDS);
+  </script>
+</body>
+
+</html>
