@@ -543,6 +543,134 @@
         "type": "Point"
       },
       "id": "f25aed6dfb938b6ca4815992f25855bc"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Cytat Cafe",
+        "discount": "-10%",
+        "location": "Miodowa 23"
+      },
+      "geometry": {
+        "coordinates": [
+          19.9449342,
+          50.0527
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "book",
+        "name": "Flyin Vintage",
+        "discount": "-15%",
+        "location": "Stradomska 16"
+      },
+      "geometry": {
+        "coordinates": [
+          19.94115,
+          50.0523
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Café Olé",
+        "discount": "-20%",
+        "location": "Grodzka 60"
+      },
+      "geometry": {
+        "coordinates": [
+          19.939092,
+          50.055756
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Kawa - Zwierzyniecka",
+        "discount": "-10%",
+        "location": "Zwierzyniecka 15"
+      },
+      "geometry": {
+        "coordinates": [
+          19.9311856,
+          50.058006
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "coffee",
+        "name": "Albo Tak",
+        "discount": "Promocyjna kawa",
+        "location": "Mały Rynek 4"
+      },
+      "geometry": {
+        "coordinates": [
+          19.9406182,
+          50.0611299
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Mazaya Falafel",
+        "discount": "-20%",
+        "location": "Starowiślna 10"
+      },
+      "geometry": {
+        "coordinates": [
+          19.9439651,
+          50.0579665
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Mazaya Falafel",
+        "discount": "-20%",
+        "location": "Żółkiewskiego 5"
+      },
+      "geometry": {
+        "coordinates": [
+          19.958053,
+          50.0579009
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "type": "utensils",
+        "name": "Mazaya Falafel",
+        "discount": "-20%",
+        "location": "Legionów 2"
+      },
+      "geometry": {
+        "coordinates": [
+          19.9466047,
+          50.0438938
+        ],
+        "type": "Point"
+      }
     }
   ],
   "type": "FeatureCollection"
