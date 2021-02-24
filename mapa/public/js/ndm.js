@@ -132,7 +132,7 @@ function onMapLoad() {
 
 // Mapbox init
 function initMap() {
-  mapboxgl.accessToken = 'pk.eyJ1IjoiZmlyZWJpdGUiLCJhIjoiY2pwem9lanlzMGU1dDQ4cDUxbTlwNHd0YyJ9.4XsSt03ehRwqBrwfc9N6qA';
+  mapboxgl.accessToken = 'pk.eyJ1IjoiZmlyZWJpdGUiLCJhIjoiY2tsamUwcmozMGNpaTJwb2Job2M0cDBucyJ9.X4lRi61CRWinbNGHCS7SQg';
   map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/firebite/cjrax9zr50s9d2tkieemekyzk',
