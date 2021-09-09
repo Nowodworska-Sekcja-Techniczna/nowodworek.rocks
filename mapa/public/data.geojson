@@ -21,23 +21,6 @@
       "type": "Feature",
       "properties": {
         "type": "coffee",
-        "name": "Costa Coffee",
-        "discount": "-20%",
-        "location": "Rynek Główny 41"
-      },
-      "geometry": {
-        "coordinates": [
-          19.937753,
-          50.062607
-        ],
-        "type": "Point"
-      },
-      "id": "1317f3fbfbab3362efe4083af3e1b059"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "coffee",
         "name": "NapNap Cafe",
         "discount": "-15%",
         "location": "ul. Zwierzyniecka 5"
@@ -254,23 +237,6 @@
         "type": "Point"
       },
       "id": "83fa5032b2dca181c21fc9fc438100e7"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
-        "name": "Mr. Pancake",
-        "discount": "-10%",
-        "location": "ul. Dolnych Młynów 10/1b"
-      },
-      "geometry": {
-        "coordinates": [
-          19.927518,
-          50.064359
-        ],
-        "type": "Point"
-      },
-      "id": "86c7e3c06494570690e577904047581d"
     },
     {
       "type": "Feature",
