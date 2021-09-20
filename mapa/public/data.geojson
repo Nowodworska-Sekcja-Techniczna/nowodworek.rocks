@@ -89,57 +89,6 @@
       "type": "Feature",
       "properties": {
         "type": "utensils",
-        "name": "Burger Station",
-        "discount": "-15%",
-        "location": "ul. Wiślna 10"
-      },
-      "geometry": {
-        "coordinates": [
-          19.934636,
-          50.060309
-        ],
-        "type": "Point"
-      },
-      "id": "57a976c31ab2090860d5d1029c78c9e9"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "coffee",
-        "name": "Choco Cafe",
-        "discount": "-10%",
-        "location": "ul. Wiślna 8"
-      },
-      "geometry": {
-        "coordinates": [
-          19.934737,
-          50.060426
-        ],
-        "type": "Point"
-      },
-      "id": "5b93ef59a1fe37f34880333a78509463"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
-        "name": "Pies Pianista",
-        "discount": "-10%",
-        "location": "ul. Paderewskiego 4"
-      },
-      "geometry": {
-        "coordinates": [
-          19.941079,
-          50.066559
-        ],
-        "type": "Point"
-      },
-      "id": "5c4e28c2bd9dd009aab68878de2b54b2"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
         "name": "Mięta Restobar",
         "discount": "-10%",
         "location": "ul. Krupnicza 19a"
@@ -220,23 +169,6 @@
         "type": "Point"
       },
       "id": "7c29999770d49d7b7fce6b19db4a5ce1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "coffee",
-        "name": "Cafe Botanica",
-        "discount": "-5%",
-        "location": "ul. Bracka 9"
-      },
-      "geometry": {
-        "coordinates": [
-          19.936105,
-          50.060052
-        ],
-        "type": "Point"
-      },
-      "id": "83fa5032b2dca181c21fc9fc438100e7"
     },
     {
       "type": "Feature",
@@ -327,40 +259,6 @@
       "type": "Feature",
       "properties": {
         "type": "utensils",
-        "name": "Pasta Masta",
-        "discount": "-10%",
-        "location": "ul. Zwierzyniecka 27"
-      },
-      "geometry": {
-        "coordinates": [
-          19.929781,
-          50.056995
-        ],
-        "type": "Point"
-      },
-      "id": "address.2627821277343556"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "music",
-        "name": "Enigma Rescue",
-        "discount": "-30% Pon-Pt",
-        "location": "ul. Zwierzyniecka 15/9a"
-      },
-      "geometry": {
-        "coordinates": [
-          19.929852,
-          50.09008
-        ],
-        "type": "Point"
-      },
-      "id": "b3ddc4986a347a599ca7989e06080001"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
         "name": "Efes Kebab",
         "discount": "-10%",
         "location": "ul. Basztowa 17"
@@ -407,23 +305,6 @@
         "type": "Point"
       },
       "id": "ce7873e56fa9b6d9d30a636b59a02aca"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "coffee",
-        "name": "Cafe Czekolada",
-        "discount": "-1zł, powyżej 30zł - 20%",
-        "location": "ul. Bracka 4"
-      },
-      "geometry": {
-        "coordinates": [
-          19.936876,
-          50.060372
-        ],
-        "type": "Point"
-      },
-      "id": "d12a4ee7b1b69b70ef7dfbcfb5c19393"
     },
     {
       "type": "Feature",
@@ -593,57 +474,6 @@
         "type": "Point"
       },
       "id": "a25aeaadcc938b6ca4815992f25855ac"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
-        "name": "Mazaya Falafel",
-        "discount": "-20%",
-        "location": "Starowiślna 10"
-      },
-      "geometry": {
-        "coordinates": [
-          19.9439651,
-          50.0579665
-        ],
-        "type": "Point"
-      },
-      "id": "a25feacdcc938b6ca4815992f25855ac"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
-        "name": "Mazaya Falafel",
-        "discount": "-20%",
-        "location": "Żółkiewskiego 5"
-      },
-      "geometry": {
-        "coordinates": [
-          19.958053,
-          50.0579009
-        ],
-        "type": "Point"
-      },
-      "id": "225fe1cdcc938b6ca4815992f25855ac"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "type": "utensils",
-        "name": "Mazaya Falafel",
-        "discount": "-20%",
-        "location": "Legionów 2"
-      },
-      "geometry": {
-        "coordinates": [
-          19.9466047,
-          50.0438938
-        ],
-        "type": "Point"
-      },
-      "id": "225f11cdcf938b6ca4815992f25855ac"
     }
   ],
   "type": "FeatureCollection"
