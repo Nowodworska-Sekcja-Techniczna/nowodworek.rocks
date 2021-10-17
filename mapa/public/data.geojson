@@ -71,6 +71,23 @@
     {
       "type": "Feature",
       "properties": {
+        "type": "utensils",
+        "name": "Dora the cook",
+        "discount": "-20%",
+        "location": "ul. Stradomska 19/6"
+      },
+      "geometry": {
+        "coordinates": [
+          19.940359,
+          50.0525339
+        ],
+        "type": "Point"
+      },
+      "id": "19cd2b32f0ecf137525088ad5ee74aee"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "type": "coffee",
         "name": "Camera Cafe",
         "discount": "-10%",
