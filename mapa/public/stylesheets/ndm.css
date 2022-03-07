@@ -397,6 +397,9 @@ html {
 .ds-book {
   background-color: #ffc107; }
 
+.ds-film {
+  background-color: #d291bc; }
+
 .ds-person {
   background-color: #ff5500;
   visibility: hidden; }
