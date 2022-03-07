@@ -192,7 +192,7 @@
       "properties": {
         "type": "coffee",
         "name": "de Revolutionibus",
-        "discount": "-15% za okazaniem Krakowskiej Karty Miejskiej",
+        "discount": "-15% za okazaniem </br> Krakowskiej Karty Miejskiej",
         "location": "Bracka 14"
       },
       "geometry": {
@@ -327,7 +327,7 @@
       "properties": {
         "type": "utensils",
         "name": "La Luna Italian Pizza",
-        "discount": "-10% na pizze tylko w ogródku (od kwietnia do października)",
+        "discount": "-10% na pizze tylko w ogródku </br> (od kwietnia do października)",
         "location": "Tadeusza Rejtana 13"
       },
       "geometry": {
