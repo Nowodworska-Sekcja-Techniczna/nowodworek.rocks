@@ -80,8 +80,8 @@ body {
 }
 
 .section-image {
-  border-radius: 50%;
-  box-shadow: 0 0 10px 0 black;
+  border-radius: 30%;
+  box-shadow: 0 10px 20px 0 black;
   max-height: 180px;
   cursor: pointer;
 }
